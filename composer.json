@@ -7,23 +7,21 @@
     ],
     "homepage": "https://github.com/spatie/laravel-welcome-notification",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Freek Van der Herten",
+        "email": "freek@spatie.be",
+        "homepage": "https://spatie.be",
+        "role": "Developer"
+    }],
     "require": {
         "php": "^7.2",
-        "illuminate/auth": "^6.5",
-        "illuminate/notifications": "^6.5",
-        "illuminate/queue": "^6.5"
+        "illuminate/auth": "^7.0",
+        "illuminate/notifications": "^7.0",
+        "illuminate/queue": "^7.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.3",
-        "phpunit/phpunit": "^8.2",
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.5",
         "spatie/test-time": "^1.1"
     },
     "autoload": {
